@@ -6,6 +6,7 @@
     border: 0;
     padding: 0;
     border-collapse: collapse;
+    width: 80%;
 }
 
 
@@ -20,19 +21,19 @@
     margin: 0;
     border: 1px solid black;
     padding: 0;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     position: relative;
     vertical-align: top;
 }
 
 .board td .position{
     position: absolute;
-    top: -8px;
-    left: -8px;
-    width: 16px;
-    height: 16px;
-    border-radius: 8px;
+    top: -15px;
+    left: -15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
 }
 
 .board td .black {

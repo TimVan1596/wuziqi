@@ -4,7 +4,7 @@ game_app.controller('BoardGameController', ['$scope', '$window', function($scope
     $scope.SUCCESS_NUMBER = 5;
 
     // SIZE is the board width and length
-    $scope.SIZE = 15;
+    $scope.SIZE = 7;
     
     $scope.BOARD = [];
     // BOARD value can be 0, 1, or 2
