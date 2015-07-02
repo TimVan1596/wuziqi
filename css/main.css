@@ -1,0 +1,54 @@
+.board {
+    margin-left: auto;
+    margin-right: auto;
+
+    table-layout: fixed;
+    border: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+
+.board tr {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+.board td {
+    margin: 0;
+    border: 1px solid black;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    vertical-align: top;
+}
+
+.board td .position{
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+}
+
+.board td .black {
+    border: 1px solid black;
+    background-color: black;
+}
+
+.board td .white {
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+.board tr:last-child td, .board tr td:last-child {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
